@@ -34,7 +34,6 @@ def getds():
     """
     获取DS参数 2020-12-10 V2.3.0
     """
-    #salt = "b253c83ab2609b1b600eddfe974df47b"
     salt = AManager_k2()
     r = generate_random_str(6)
     t = round(time.time())
@@ -42,7 +41,5 @@ def getds():
     objhash.update("salt={}&t={}&r={}".format(salt, t, r).encode("utf-8"))
     o = objhash.hexdigest()
     objhash.update(str(t).encode("utf-8"))
-    #hash_t = objhash.hexdigest()
-    #ret = "{},{},{},{}".format(str(t), r, o, hash_t)
     ret = "{},{},{}".format(str(t), r, o)
     return ret
