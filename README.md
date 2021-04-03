@@ -9,7 +9,7 @@
 对应版本
 ~~V2.3.0~~
 
- V2.6.0 (2021/04/03 最新版)
+ [V2.6.0](https://github.com/Mas0nShi/MiHoYo-DS/commit/fdcb870fdcc56891cec2733e894a7d7c892691c4) (2021/04/03 最新版)
 
 关于参数DS的算法还原。
 
