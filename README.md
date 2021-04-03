@@ -6,7 +6,9 @@
 
 ## Parameters of the DS encryption process analysis.
 
-对应版本 V2.3.0
+对应版本
+~~V2.3.0~~
+ V2.6.0 (2021/04/03 最新版)
 
 关于参数DS的算法还原。
 
